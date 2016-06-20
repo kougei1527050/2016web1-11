@@ -1,1 +1,2 @@
-console.log('こんにちは');
+window.alert('こんにちは');
+console.log('こんにちは！')
