@@ -14,4 +14,4 @@ if(answer === number){
 }
 
 //結果表示
-document.getElementById('choice').textContent=message;
+document.getElementById('choice').textContent = message;
