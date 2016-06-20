@@ -1,8 +1,5 @@
 //こたえ
 var number = Math.floor(Math.random()*3);
-
-for answer === number
-{
 var answer = parseInt(window.prompt('数あてゲーム。0～2の数字を入力してください。'));
 
 var message;
@@ -18,4 +15,4 @@ if(answer === number){
 
 //結果表示
 document.getElementById('choice').textContent = message;
-}
+
