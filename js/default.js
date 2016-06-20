@@ -4,11 +4,11 @@ var answer = parseInt(window.prompt('数あてゲーム。0～2の数字を入�
 
 var message;
 if(answer === number){
-  message = 'あたりー！';
+  message = 'あたりー！所詮3分の1だけど';
 }else if(answer < number){
-  message = 'もう少し大きいよ';
+  message = 'もう少し大きいよ。それくらいわかるよね';
 }else if(number < answer){
-  message = 'もうすこし小さいよ';
+  message = 'もうすこし小さいよ。やり直し乙';
 }else{
   message = '0～2のの数字を入力してください';
 }
